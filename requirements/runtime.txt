@@ -14,3 +14,5 @@ tiktoken
 timeout-decorator
 typing-extensions
 duckduckgo_search==5.3.1b1
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
