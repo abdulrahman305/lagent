@@ -7,3 +7,4 @@ timeout_decorator
 torch
 transformers>=4.34,<=4.40
 vllm>=0.3.3
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
